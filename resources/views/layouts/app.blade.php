@@ -13,6 +13,8 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" >
+    <link href="{{ asset('css/jquery.dataTables.css') }}" rel="stylesheet" >
+    <link href="{{ asset('css/dataTables.bootstrap.min.css') }}" rel="stylesheet" >
 
 </head>
 <body>
@@ -80,6 +82,8 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+     <script src="{{ asset('js/query.dataTables.min.js') }}"></script>
+     <script src="{{ asset('js/dataTables.bootstrap.min.js') }}"></script>
    @yield('scripts')
 </body>
 </html>

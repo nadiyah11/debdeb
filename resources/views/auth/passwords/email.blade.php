@@ -13,7 +13,7 @@
                         </div>
                     @endif
 
-                    {!! Form::open(['url'=>'/password/mail','class'=>'form-horizontal']) !!}
+                    {!! Form::open(['url'=>'/password/email','class'=>'form-horizontal']) !!}
 
                     <div class="form-group{{$errors->has('email') ? 'has-error' : ''}}">
                         {!! Form::label('email', 'Alamat Email', ['class'=>'col-md-4 control-label']) !!}
